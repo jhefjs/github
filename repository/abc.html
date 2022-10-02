@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+	<title></title>
+	<style>
+		*
+		{
+			margin: 0px;
+			padding: 0px;
+		}
+		.menu li
+		{
+			list-style: none;
+		}
+		.menu ul li
+		{
+			height: 35px;
+			width: 120px;
+			background-color: red;
+		    border: 1px solid white;
+		    text-align: center;
+		    line-height: 35px;
+		    border-radius: 10px;
+		    float: left;
+		    position: relative;
+		}
+		.menu ul li a
+		{
+			text-decoration: none;
+			color: white;
+		}
+		.menu ul li a:hover
+		{
+           background: blue;
+		}
+        
+        .menu ul li:hover>ul
+        {
+        	display: block;
+        }
+        .menu ul ul
+        {
+        	display: none;
+        }
+        .menu ul ul ul
+        {
+        	margin-left: 120px;
+        	margin-top: -15px;
+        }
+	</style>
+</head>
+<body>
+	<div class="menu">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Aboutus</a></li>
+			<li><a href="#">Courses</a>
+			<ul>
+			  	<li><a href="#">B.Tech</a>
+               <ul>
+               	  <li><a href="#">CSE</a></li>
+               	  <li><a href="#">EC</a></li>
+               	  <li><a href="#">EE</a></li>
+               	  <li><a href="#">ME</a></li>
+               	  <li><a href="#">CE</a></li>
+               	  <li><a href="#">IT</a></li>
+               	</ul>
+             </li>
+               <li><a href="#">M.Tech</a></li>
+               <li><a href="#">MBA</a></li>
+               <li><a href="#">BSC</a></li>
+               <li><a href="#">BCOM</a></li>
+           </ul>    
+			<li><a href="#">News</a></li>
+			<li><a href="#">Contactus</a>	
+		</ul>
+		<img src="D:\depositphotos_54081723-stock-photo-beautiful-nature-landscape.jpg">
+	</div>
+</body>
